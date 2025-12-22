@@ -87,6 +87,42 @@ export function Experience() {
                         );
                     })}
                 </div>
+
+                {/* Education Section */}
+                <motion.div
+                    id="education"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.6 }}
+                    className="mx-auto mt-16 max-w-2xl text-center"
+                >
+                    <h3 className="mb-6 text-2xl font-bold text-white">Education</h3>
+                    <div className="space-y-3 text-slate-400">
+                        <p className="text-sm">
+                            <span className="text-teal-300 font-medium">M.Sc., Computer Science (Machine Learning)</span> — Afeka College of Engineering
+                            <br />
+                            <span className="text-xs text-slate-500">Master's thesis on NLP + predictive modeling</span>
+                        </p>
+                        <p className="text-sm">
+                            <span className="text-teal-300 font-medium">B.Sc., Computer Science</span> — Afeka College of Engineering
+                        </p>
+                        <p className="text-sm">
+                            <span className="text-teal-300 font-medium">Certification: Python</span> — 05–06/2020
+                        </p>
+                    </div>
+                </motion.div>
+
+                {/* Featured Projects Heading */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.7 }}
+                    className="mt-16 text-center"
+                >
+                    <h3 className="text-2xl font-bold text-white">Featured Projects</h3>
+                </motion.div>
             </div>
         </section>
     );
