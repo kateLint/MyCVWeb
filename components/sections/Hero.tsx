@@ -41,11 +41,8 @@ export function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="text-7xl font-thin tracking-[0.02em] text-white sm:text-8xl md:text-9xl lg:text-[10rem]"
                 >
-                    <span className="block font-extralight text-transparent bg-clip-text bg-gradient-to-br from-white via-slate-50 to-slate-200 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)]">
-                        Keren
-                    </span>
-                    <span className="block font-light bg-gradient-to-br from-teal-300 via-teal-400 to-cyan-300 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(45,212,191,0.5)] mt-2">
-                        Lint
+                    <span className="block font-extralight text-transparent bg-clip-text bg-gradient-to-br from-white via-slate-50 to-slate-200 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
+                        Keren Lint
                     </span>
                 </motion.h1>
 
