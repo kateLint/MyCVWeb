@@ -18,7 +18,7 @@ export function Hero() {
     };
 
     return (
-        <section className="relative flex min-h-screen w-full flex-col items-center justify-start overflow-hidden bg-slate-950 px-4 pt-32 text-center">
+        <section className="relative flex min-h-[85vh] w-full flex-col items-center justify-start overflow-hidden bg-slate-950 px-4 pt-32 pb-16 text-center">
             {/* Background Neural Network */}
             <HeroNetwork />
 
@@ -83,7 +83,7 @@ export function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
-                className="absolute bottom-10 animate-bounce"
+                className="absolute bottom-6 animate-bounce"
             >
                 <ArrowDown className="h-6 w-6 text-slate-500" />
             </motion.div>
