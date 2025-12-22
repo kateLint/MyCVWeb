@@ -39,7 +39,7 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="text-7xl font-thin tracking-[0.02em] text-white sm:text-8xl md:text-9xl lg:text-[10rem]"
+                    className="text-5xl font-thin tracking-[0.02em] text-white sm:text-6xl md:text-7xl lg:text-8xl"
                 >
                     <span className="block font-extralight text-transparent bg-clip-text bg-gradient-to-br from-white via-slate-50 to-slate-200 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
                         Keren Lint
