@@ -33,7 +33,7 @@ const EXPERIENCES = [
 
 export function Experience() {
     return (
-        <section id="experience" className="relative w-full pt-8 pb-24">
+        <section id="experience" className="relative w-full pt-8 pb-24 scroll-mt-16">
             <div className="container mx-auto px-4">
                 <h2 className="mb-12 text-center text-3xl font-bold text-white sm:text-4xl">
                     Professional Journey
@@ -95,7 +95,7 @@ export function Experience() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.6 }}
-                    className="mx-auto mt-16 max-w-2xl text-center"
+                    className="mx-auto mt-16 max-w-2xl text-center scroll-mt-16"
                 >
                     <h3 className="mb-6 text-2xl font-bold text-white">Education</h3>
                     <div className="space-y-3 text-slate-400">

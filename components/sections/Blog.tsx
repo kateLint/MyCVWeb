@@ -37,7 +37,7 @@ const GITHUB_STATS = [
 
 export function Blog() {
     return (
-        <section id="blog" className="relative w-full py-24">
+        <section id="blog" className="relative w-full py-24 scroll-mt-16">
             <div className="container mx-auto px-4">
 
                 <div className="grid gap-16 lg:grid-cols-2">

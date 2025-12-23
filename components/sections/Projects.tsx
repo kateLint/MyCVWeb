@@ -41,7 +41,7 @@ const PROJECTS = [
 
 export function Projects() {
     return (
-        <section id="projects" className="relative w-full pt-8 pb-24">
+        <section id="projects" className="relative w-full pt-8 pb-24 scroll-mt-16">
             <div className="container mx-auto px-4">
                 <div className="grid gap-8 md:grid-cols-3">
                     {PROJECTS.map((project, index) => {
